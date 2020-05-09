@@ -1,5 +1,5 @@
 /* pages/home/home.wxss */
-.title{
+view{
   color: cadetblue;
   font-size:30px;
 }

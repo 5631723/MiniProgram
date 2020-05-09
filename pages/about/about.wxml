@@ -1,2 +1,8 @@
-<!--pages/about/about.wxml-->
-<text>pages/about/about.wxml</text>
+  <!--pages/about/about.wxml-->
+  <text>关于页面通过按钮获取用户信息</text>
+  <button size='mini' open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">获取用户信息</button>
+
+<open-data type="userNickName"></open-data>
+<open-data type="userAvatarUrl"></open-data>
+<open-data type="userGender" lang="zh_CN"></open-data>
+
