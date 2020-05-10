@@ -1,0 +1,16 @@
+<!--pages/view/view.wxml-->
+
+<!-- 1.view的基本使用 -->
+<view>
+	<text>文本</text>
+</view>
+<view>块级元素</view>
+<view class='box'>带样式view</view>
+
+<!-- 2.hover-class -->
+<view hover-class="box" hover-stay-time="100" hover-start-time="0">带有hover-class属性的view</view>
+
+<!-- 3.hover-stop-propagation -->
+<view class="big" hover-class="box">
+	<view class="small" hover-stop-propagation>small</view>
+</view>

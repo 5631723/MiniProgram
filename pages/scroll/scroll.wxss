@@ -1,0 +1,26 @@
+/* pages/scroll/scroll.wxss */
+.container1{
+  background-color: blanchedalmond;
+  /* 不要换行 */
+  white-space: nowrap;
+}
+.item1{
+  width: 100px;
+  height: 100px;
+  background-color: chocolate;
+  margin:10px;
+  /* 行内块级元素，横向排列，宽度不够换行显示 */
+  display: inline-block;
+}
+
+.container2{
+  margin-top: 20px;
+  background-color: lavender;
+  height: 230px;
+}
+.item2{
+  
+  height: 100px;
+  background-color: lawngreen;
+  margin:10px;
+}

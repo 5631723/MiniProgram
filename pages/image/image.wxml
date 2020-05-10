@@ -1,0 +1,24 @@
+<!--pages/image/image.wxml-->
+
+<!-- 1.image组件可以写成单标签或双标签 -->
+<image src="/assets/1.jpg"></image>
+<image src="/assets/1.jpg" />
+
+<!-- 2.远程图片 -->
+<image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
+
+<!-- 3.相册图片 -->
+<image src="{{imagePath}}"></image>
+<button bindtap="handleChooseAlbum">选择图片</button>
+
+<!-- 4.lazy-load -->
+<image src="/assets/1.jpg" />
+<image src="/assets/1.jpg" />
+<image src="/assets/1.jpg" />
+<image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" bindload="handleImageLoad" lazy-load></image>
+
+<!-- 5.长按图片出现识别小程序码 -->
+<image src="https://s1.ax1x.com/2020/05/10/Y8Zx2Q.jpg" show-menu-by-longpress></image>
+
+<!-- 6.图片缩放裁剪 -->
+<image src="https://s1.ax1x.com/2020/05/10/Y8Zx2Q.jpg" mode='widthFix'></image>
