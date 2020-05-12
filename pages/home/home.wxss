@@ -1,5 +1,6 @@
 /* pages/home/home.wxss */
-.title{
+.context{
   color: cadetblue;
   font-size:30px;
+  margin: 30rpx;
 }

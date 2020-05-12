@@ -1,0 +1,3 @@
+<!--components/my-select-cpn/my-select-cpn.wxml-->
+<text>演示通过页面修改组件中的数据</text>
+<view>{{counter}}</view>
