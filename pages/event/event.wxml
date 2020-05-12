@@ -1,0 +1,27 @@
+<!--pages/event/event.wxml-->
+
+<view style="width:200rpx;height:200rpx;background-color:#534595" bindtouchstart="handletouchstart" bindtouchmove="handletouchmove" bindtouchend="handletouchend" bindtap="handletap" bindlongpress="handlelongpress"></view>
+
+<button bindtap="handleEventClick">事件对象</button>
+
+<view>
+	<block wx:for="{{list}}" wx:key="*this">
+		<view class="item" 
+    bindtap="handleItemClick"
+    data-index="{{index}}"
+    data-item="{{item}}"
+    >{{item}}</view>
+	</block>
+</view>
+
+<!-- bind:会逐级传递 -->
+<!-- catch:阻止下一步传递 -->
+<view id="outer" bindtap="handleTap1"  capture-bind:tap='captureTap1'>
+  outer view
+  <view id="middle" bindtap="handleTap2"  capture-bind:tap='captureTap2'>
+    middle view
+    <view id="inner" bindtap="handleTap3"  capture-bind:tap='captureTap3'>
+      inner view
+    </view>
+  </view>
+</view>

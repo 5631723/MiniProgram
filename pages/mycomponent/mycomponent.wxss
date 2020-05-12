@@ -1,0 +1,4 @@
+/* pages/mycomponent/mycomponent.wxss */
+.mycss{
+  color: darkgrey;
+}

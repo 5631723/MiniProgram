@@ -1,0 +1,25 @@
+/* pages/wxss/wxss.wxss */
+.box{
+  color: aqua;
+  font-size: 24px;
+}
+
+.box1{
+  width: 100px;
+  height: 100px;
+  background-color: cadetblue;
+}
+/* iphone6的设备上，rpx的值是px的一半 */
+/* 随着设备宽高的调整，rpx会自动调整大小 */
+.box2{
+  width: 200rpx;
+  height: 200rpx;
+  background-color: rgb(154, 91, 179);
+}
+/* 文字放大一倍 */
+.content1{
+  font-size: 24px;
+}
+.content2{
+  font-size: 48rpx;
+}

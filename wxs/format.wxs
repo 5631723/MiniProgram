@@ -1,0 +1,14 @@
+// /wxs/format.wxs
+function priceFormat(price, len) {
+  // 如果没有传入，默认为2
+  len = len || 2;
+  //确保类型是小数
+  var f_price = parseFloat(price);
+  //保留指定小数位
+  return f_price.toFixed(len);
+}
+
+//导出功能
+module.exports = {
+  priceFormat: priceFormat
+}

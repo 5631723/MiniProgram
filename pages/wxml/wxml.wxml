@@ -1,0 +1,18 @@
+<!--pages/wxml/wxml.wxml-->
+<!-- 定义模板 -->
+<template name='tmp'>
+<view>{{a}}</view>
+<view>{{b}}</view>
+<view>{{c}}</view>
+</template>
+
+<!-- 使用模板，并通过data传参 -->
+<template is="tmp" data="{{...obj1, ...obj2, a, c: 6}}"></template>
+<view>-----------</view>
+<view wx:for="{{[1,2,3]}} ">
+  {{item}}
+</view>
+<view>-----------</view>
+<view wx:for="{{[1,2,3] + ' '}}">
+  {{item}}
+</view>

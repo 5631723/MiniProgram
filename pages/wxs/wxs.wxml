@@ -1,0 +1,7 @@
+<!--pages/wxs/wxs.wxml-->
+
+<!-- 引入wxs -->
+<wxs src='../../wxs/format.wxs' module='format' />
+
+<!-- 使用wxs中定义的方法 -->
+<view>您需要支付的价格：{{format.priceFormat(price)}}</view>

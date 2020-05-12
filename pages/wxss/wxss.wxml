@@ -1,0 +1,18 @@
+<!--pages/wxss/wxss.wxml-->
+<!-- 1.行内（内联）样式 -->
+<view style="color:red;font-size:24px;">行内（内联）样式</view>
+
+<!-- 2.页内样式 -->
+<view class='box'>页内样式</view>
+
+<!-- 3.全局样式 -->
+<view class='container'>全局样式</view>
+
+<!-- 4.三种演示作用与同一个组件 -->
+
+<!-- 5.wxss中的单位：rpx -->
+<!-- 前端也需要进行配置尺寸的适配：em/rem/vw/vh -->
+<view class='box1'></view>
+<view class='box2'></view>
+<view class='content1'>文字大小测试</view>
+<view class='content2'>文字大小测试</view>

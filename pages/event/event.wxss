@@ -1,0 +1,27 @@
+/* pages/event/event.wxss */
+.item {
+  border: 1px solid #808000;
+  margin: 50rpx 50rpx;
+  text-align: center;
+}
+
+#outer {
+  width: 500rpx;
+  height: 500rpx;
+  background-color: cornflowerblue;
+  margin: auto;
+}
+
+#middle {
+  width: 300rpx;
+  height: 300rpx;
+  background-color: rgb(200, 95, 206);
+  margin: auto;
+}
+
+#inner {
+  width: 150rpx;
+  height: 150rpx;
+  background-color: rgb(163, 230, 109);
+  margin: auto;
+}

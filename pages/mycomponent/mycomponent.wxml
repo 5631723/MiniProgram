@@ -1,0 +1,15 @@
+<!--pages/mycomponent/mycomponent.wxml-->
+<text>在当前页面中使用自定义组件</text>
+
+<!-- 1.使用自定义的组件 -->
+<!-- <my-cpn></my-cpn> -->
+
+<!-- 2.自定义的样式细节 -->
+<!-- <my-style></my-style> -->
+
+<!-- 3.组建通信 -->
+<!-- <my-prop title='我是传递到组件的标题' content='我是传入的内容' titleclass='mycss'/> -->
+
+<!-- 4.组件内部发送自定义事件 -->
+<view>当前计数：{{counter}}</view>
+<my-event bind:increment='handleIncrement'/>
